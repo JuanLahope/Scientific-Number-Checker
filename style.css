@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1d837f;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  #inputString {
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #1d837f;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1d837f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #145961;
+  }
+  
+  #message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 35%;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+  }
+  
+  .author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1d837f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #e6ffe6;
+  }
+/* Add styles for the presented-by-and-nim element */
+#presented-by-and-nim {
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Distribute evenly */
+    margin-top: 20px; /* Add spacing for separation */
+    font-size: 0.9em; /* Adjust font size as needed */
+    color: #333; /* Text color */
+  }
+  
+  #presented-by-and-nim p {
+    margin: 0; /* Remove default margin for spacing */
+    padding: 5px; /* Add some padding inside elements */
+    border: 1px solid #ddd; /* Optional border for aesthetics */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f5f5f5; /* Light background color */
+  }
+   
